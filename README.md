@@ -23,17 +23,19 @@ python3 -m venv .venv
 3) activate the virtual environment:
 source .venv/bin/activate
 
-4) install requirements.txt 
+4) install requirements.txt:
 pip install -r requirements.txt
 
-5) run the program from the terminal using command line arguments
+5) run the program from the terminal using command line arguments:
 to see the help about command line arguments, run:
 python3 sync.py -h
 
 en example command to run the program using command line arguments:
+
 python3 sync.py -s /Users/home/Desktop/source_folder -r /Users/home/Desktop/replica_folder -l /Users/home/Desktop/logs -t 60
 
 The above command will:
+
 sync the folder in this path: /Users/home/Desktop/source_folder with the folder located in this path: /Users/home/Desktop/replica_folder, 
 the log file will be saved into this path: /Users/home/Desktop/logs, and the sync will be performed every 60 seconds. 
 
