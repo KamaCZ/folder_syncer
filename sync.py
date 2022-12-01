@@ -2,12 +2,11 @@ import argparse
 import hashlib
 import logging
 import os
-import schedule
 import time
 from collections import OrderedDict
 from distutils.dir_util import copy_tree
 import shutil
-
+import schedule
 
 """4 command line arguments created"""
 args = argparse.ArgumentParser(description="Veeam back-up service")
