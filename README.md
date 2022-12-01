@@ -15,7 +15,7 @@ Constraints of the program:
 
 To run the program perform following:
 1) clone the project:
-git clone https://github.com/KamaCZ/veeam_syncer.git
+git clone https://github.com/KamaCZ/folder_syncer.git
 
 2) create a virtual environment:
 python3 -m venv .venv
